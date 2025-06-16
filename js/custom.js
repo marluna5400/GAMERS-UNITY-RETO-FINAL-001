@@ -107,7 +107,6 @@
 
 })(window.jQuery);
 
-
 function cargarFragmento(idElemento, archivo) {
     fetch(archivo)
         .then(respuesta => respuesta.text())
